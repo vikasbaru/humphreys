@@ -1,0 +1,260 @@
+/*********************/
+/***** General ******/
+/********************/
+html {
+    font-size: 18px;
+    line-height: 1.5;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    color: #526272;
+}
+h1 {
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+h2, h3, h4 {
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+h5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+strong, b, .strong {
+    font-weight: 700;
+}
+a {
+    color: #e17a5e;
+    text-decoration: none;
+}
+a:hover {
+    color: #353535;
+}
+
+.btn {
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 2px;
+    padding: 0.75rem 2rem;
+}
+.btn-primary {
+    background: #e17a5e;
+    border-color: #e17a5e;
+}
+.btn-primary:hover {
+    background: #353535;
+    border-color: #353535;
+}
+.text-primary {
+    color: #e17a5e!important;
+}
+.text-secondary {
+    color: #28724f!important;
+}
+.bg-primary {
+    background: #e17a5e!important;
+}
+.bg-secondary {
+    background: #28724f!important;
+}
+.bg-light {
+    background: #94a899!important;
+}
+.accordion-item {
+    border: none;
+}
+.accordion-button {
+    padding-left: 0;
+    padding-right: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    color: #aaa;
+    font-size: 1.1rem;
+}
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+    color: #e17a5e;
+}
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-right: 1rem;
+    content: "+";
+    background-image: none;
+    background: #8c95a3;
+    color: #fff;
+    text-align: center;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::before {
+    content: "-";
+    background: #e17a5e;
+}
+.accordion-button::after {
+    display: none;
+}
+.accordion-button:not(.collapsed) {
+    background: transparent;
+    box-shadow: none;
+}
+.accordion-body {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.obj-fit {
+    object-fit: cover;
+}
+.dark-link {
+    color: #353535;
+}
+.dark-link:hover {
+    color: #e17a5e;
+}
+
+#topbar {
+    border-bottom: 1px solid #eee;
+    background: #fff;
+}
+#topbar ul li a {
+    padding: 0.8rem 0.8rem;
+    display: block;
+    font-size: 0.9rem;
+    color: #526272;
+    text-decoration: none;
+}
+#topbar ul li a:hover {
+    color: #353535;
+}
+#topbar ul li {
+    border-left: 1px solid rgba(219,219,219,0.81);
+    margin: 0;
+}
+
+.navbar-brand {
+    max-width: 200px;
+}
+.navbar li {
+    padding-left: 1rem;
+}
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #526272;
+}
+.nav-tabs {
+    border: none;
+}
+.nav-tabs .nav-link {
+    border: 1px solid #dbe2ea;
+    border-radius: 0;
+    background: #f4f6f8;
+    color: #747474;
+}
+.nav-tabs .nav-link.active {
+    margin-bottom: 0;
+    border: 1px solid #dbe2ea;
+}
+
+#hero {
+    height: 660px;
+    overflow: hidden;
+}
+#hero video {
+    height: auto;
+}
+#hero-inner {
+    height: auto;
+}
+#hero-inner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+#hero h1,
+#hero-inner h1,
+#hero-carousel h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: rgb(0 0 0 / 70%) 2px 2px 10px;
+}
+#hero h1:after,
+#hero-inner h1:after,
+#hero-carousel h1:after {
+    content: '';
+    height: 2px;
+    width: 90%;
+    max-width: 600px;
+    background: #e17a5e;
+    display: block;
+    margin: 10px auto;
+}
+
+.intro {
+    background: url(../img/001photoyou-2021_website-transparantie.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.cta img {
+    margin-top: -2rem;
+    max-width: 550px;
+    position: relative;
+    z-index: 1;
+}
+
+.breads {
+    background: #F5E6E3;
+}
+.breadcrumb a {
+    color: #aaa;
+    text-decoration: none;
+}
+.breadcrumb a:hover {
+    color: #404041;
+}
+
+.photo-grid {
+    background: #353535;
+}
+.photo-grid img {
+    transition: all 1s;
+}
+.photo-grid img:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+#hero-carousel .carousel-caption {
+    background: rgba(224, 121, 92, 0.58);
+    top: 50%;
+    bottom: auto;
+    transform: translateY(-50%);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#hero-carousel .carousel-caption h1 {
+    font-size: 4.5rem;
+    margin-bottom: 0;
+}
+#hero-carousel .carousel-caption p {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #526272;
+}
