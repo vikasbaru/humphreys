@@ -54,6 +54,13 @@ a:hover {
 .text-secondary {
     color: #28724f!important;
 }
+.text-primary-1{
+    color:#aaaaaa; 
+
+}
+.text-primary-1:hover{
+       color: #404041;
+}
 .bg-primary {
     background: #e17a5e!important;
 }
@@ -249,6 +256,31 @@ a:hover {
     font-size: 1.2rem;
     font-weight: 600;
 }
+/* custom-css */
+
+button.btn.btn-secondary {
+    padding: 10px;
+    margin: 4px;
+    border-radius: 7px;
+}
+.bg-grey-light{
+    background-color: #f1f1f1;
+}
+
+.font13{
+    font-size: 13px;
+}
+button.accordion-button.collapsed {
+    padding: 12px 0px;
+    border-bottom: 1px solid #dbe2ea;
+}
+.button_position {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+}
+
+
 
 
 footer a {
